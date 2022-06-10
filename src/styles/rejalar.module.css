@@ -1,13 +1,13 @@
 .Container {
     width: 100%;
-    height: 100vh;
+    /*height: auto;*/
     border: 1px solid red;
 }
 
 .wrap {
     width: 100%;
     height: 400px;
-    border: green solid 2px ;
+    border: green solid 2px;
     display: flex;
     justify-content: center;
 }
@@ -21,12 +21,13 @@
     text-align: center;
     border: 3px dotted yellow;
 }
+
 .Harakatlar h1 {
     height: 50px;
 }
 
 .Harakatlar p {
-    width:100%;
+    width: 100%;
     font-size: 24px;
     text-align: center;
     display: flex;
@@ -34,26 +35,55 @@
 }
 
 .Gridlar {
-    display:flex;
+    display: flex;
     grid-template-columns:1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
     justify-content: center;
     color: white;
-    gap:40px;
+    gap: 40px;
 }
 
-.Gridlar div  {
+.Gridlar div {
     width: 300px;
     display: flex;
     height: 200px;
     line-height: 20px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     align-items: center;
     border: 2px solid red;
     text-align: center;
 }
-.KattaGrid{
+
+.KattaGrid {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.zmeyka {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px!important;
+}
+
+.zmeykaTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px 0;
+    gap: 140px;
+}
+
+.zmeykaTitle div {
+    width: 80%;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+
+.zmeykaTitle div > p {
+    position: relative;
+    left: 40px;
+    top: 40px;
 }

@@ -1,7 +1,8 @@
 import React from 'react'
 import style from '../../styles/infrotuzilma.module.css'
-import map from '../../assets/icons/map.svg'
 import { Grid } from '@mui/material'
+import Uzbekistan from "./Uzbekistan";
+
 const infratuzilma = () => {
   return (
     <div className={style.containerr}>
@@ -23,7 +24,7 @@ const infratuzilma = () => {
                </Grid>
                <Grid item xs={12} sm={12} md={6} xl={6}>
                   <div className={style.itemContainer}>
-                     <img src={map} alt=""/>
+                     <Uzbekistan />
                   </div>
                </Grid>
             </Grid>
