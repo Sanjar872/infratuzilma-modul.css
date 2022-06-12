@@ -1,6 +1,6 @@
 import React from 'react'
-import style from '../../styles/navbar.module.css';
-import dcLogo from '../../assets/icons/dcLogo.svg'
+import style from '../styles/navbar.module.css';
+import dcLogo from '../assets/icons/dcLogo.svg'
 const Navbar = () => {
   return (
     <div className={style.container}>

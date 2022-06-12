@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../../styles/infrotuzilma.module.css'
+import style from '../styles/infrotuzilma.module.css'
 import { Grid } from '@mui/material'
 import Uzbekistan from "./Uzbekistan";
 

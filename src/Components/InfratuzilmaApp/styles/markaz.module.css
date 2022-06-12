@@ -14,57 +14,56 @@
 }
 
 .RasmYil {
-    border: 1px solid red;
-    height: 70vh;
-    margin: 50px;
+    height: 70vh;               
 }
 
 @media (max-width:600px) {
     .container {
         width: 100%;
         height: auto;
-        border: 10px solid blueviolet;
+        border: 5px goldenrod solid;
+    }
+    .Grid1 {
+        border: 1px solid rgb(78, 47, 47);
     }
    
     .RasmYil {
-        width: 100%!important;
-        /* border: 1px green solid; */
-        margin-left: 20px;
+        /* width: 100%!important; */
+        /* margin-left: 45px; */
+        /* height: 80vh; */
+        border: 1px solid gold;
     }
-    .Img {
-        margin-left: -5px;
-    }
+   
 
     .YilrasmMEdi {
-        width: 350px !important;
+        width: 100% !important;
     }
 
     .Yil1 {
-        margin-left: -80px;
-        margin-top: 40px;
+       margin-left: -85px;
+       margin-top: 40px;
     }
 
     .Yil2 {
         margin-left: -50px;
-        margin-top: -30px;
+        margin-top:-30px;
     }
 
     .Yil3 {
-        margin-left: -85px;
-        margin-top: -20px;
+        margin-left:-90px;
+        margin-top: -15px;
     }
     .Yil4{
-        margin-left: -50px;
+        margin-left: -45px;
         margin-top: -20px;
     }
     .Matn {
-        width:350px !important;
+        width:100% !important;
         text-align: center;
-        margin-left: 16px;
         height: auto !important;
     }
     .Matn h3 {
-        height: 80px !important;
+        height: 60px !important;
         font-size: 25px !important;
     }
     .Matn p {
@@ -72,10 +71,16 @@
     }
 }
 
+@media (max-width:598px) {
+    /* .container  {
+        transform: scale(0.7);
+        margin-left: -20px;
+    } */
+}
+
 .Img img{
-    width: 485px;
-    border: 1px solid green;
-    height: 600.87px;
+    /* width: 485px; */
+    /* height: 600.87px; */
 
 }
 .Matn {

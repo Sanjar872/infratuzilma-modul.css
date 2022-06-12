@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from '../../styles/andijon.module.css'
-import AndMaps from '../../assets/icons/AndMap.svg'
+import styles from '../styles/andijon.module.css'
+import AndMaps from '../assets/icons/AndMap.svg'
 import {Grid} from '@mui/material'
 
 const Andijon = () => {
    return (
       <div className={styles.global}>
-         <Grid className={styles.GridContainer} container spacing={5}>
+         <Grid className={styles.GridContainer} container spacing={0}>
             <Grid className={styles.Grid1} item xs={12} sm={12} md={6} xl={6}>
                <div className={styles.Digital}>
                   <h1>“Digital City” Texnopark</h1>

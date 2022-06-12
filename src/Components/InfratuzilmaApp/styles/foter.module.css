@@ -1,0 +1,64 @@
+.parent {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    
+    
+    }
+    /* h1{
+      padding: 10px;
+      width: 100%;
+      margin-top: 15px;
+      font-size: 22px;
+      border: 1px solid red;
+    } */
+    
+    .div2 {
+      width: 30%;
+      gap: 50px;
+    }
+    
+    
+    .div1 {
+      width: 35%;
+      height: 100px;
+      align-items: center;
+      display: flex;
+      color: #fff;
+      
+    }
+  
+  @media screen and (max-width:703px){
+    .div1 {
+      font-size: 10px;
+    }
+  }
+  
+  
+  @media screen and (max-width:563px){
+      .div1{
+          width: 100%;
+      }
+  
+      .div2{
+        width:100%;
+  
+      }
+   
+  }
+  
+  .Pasqism {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Pasqism h1 {
+    color: white;
+  }

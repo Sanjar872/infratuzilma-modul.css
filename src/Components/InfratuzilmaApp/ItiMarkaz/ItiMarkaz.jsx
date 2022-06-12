@@ -1,6 +1,6 @@
 import React from 'react'
-import style from '../../styles/markaz.module.css'
-import Yilrasm from '../../assets/icons/Exclude.svg'
+import style from '../styles/markaz.module.css'
+import Yilrasm from '../assets/icons/Exclude.svg'
 import { Grid } from '@mui/material'
 
 const ItiMarkaz = () => {

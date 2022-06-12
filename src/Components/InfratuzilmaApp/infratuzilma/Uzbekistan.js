@@ -1,6 +1,6 @@
 import {VectorMap} from '@south-paw/react-vector-maps';
 import {Map} from "./appc";
-import {data} from "../../store";
+import {data} from "../store";
 import {useState} from "react";
 
 export default function Uzbekistan() {
