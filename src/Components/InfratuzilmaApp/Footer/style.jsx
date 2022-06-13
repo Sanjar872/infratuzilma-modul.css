@@ -23,6 +23,8 @@ export const H1AND = styled.div`
 
 export const BoX = styled.div`
     width:100%;
+    border: 1px solid red;
+    margin-top:50px;
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
@@ -30,7 +32,7 @@ export const BoX = styled.div`
         display:flex;
         width:100%;
         justify-content:center;
-        transform:scale(0.6)
+        /* transform:scale(0.6) */
     }
     @media screen and (max-width:1302px){
         display:flex;
@@ -59,7 +61,7 @@ export const BoX = styled.div`
        }
         
     }
-
+ 
 `
 export const Brendlar = styled.div`
     width:100%;
@@ -100,6 +102,7 @@ export const Brendlar = styled.div`
 export const Kompaniya = styled.img`
     width:35%;
     height: 25%;
+    border:1px solid red;
     @media screen and (max-width:600px) {
             width:18%;
     }
@@ -126,6 +129,7 @@ export const PANd = styled.p`
 export const BredRasmlar = styled.img`
     width:100%;
     height:100px;
+    
 `
 export const BredRasmlar5 = styled.img`
     width:180%;
