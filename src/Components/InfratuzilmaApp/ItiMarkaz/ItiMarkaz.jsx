@@ -1,9 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import style from '../styles/markaz.module.css'
 import Yilrasm from '../assets/icons/Exclude.svg'
 import { Grid } from '@mui/material'
 
+import axios from 'axios'
+const API = 'http://167.99.214.82/get-infrastructure/'
+
+
 const ItiMarkaz = () => {
+
+    const [data, setData] = useState([])
+    useEffect(() => {
+    axios.get(API)
+    .then(res=>{
+        setData(res.data[1])
+    })
+   
+    }, [])
+
+    console.log(data);
+    
+
     return (
         <div className={style.container}>
             <Grid className={style.ItimGrid} container spacing={5}>
@@ -12,7 +29,7 @@ const ItiMarkaz = () => {
                     <div className={style.RasmYil}>
                         <div className={style.Img}>
 
-                        <img className={style.YilrasmMEdi} src={Yilrasm} alt="" />
+                        <img className={style.YilrasmMEdi} src={`http://167.99.214.82${data.image}`} alt="" />
                         <div className={style.Yil1}>
                             <span>2022</span>
                             <p>37Та</p>
@@ -36,7 +53,7 @@ const ItiMarkaz = () => {
 
                     <div className={style.Matn}>
                         <h3 >Andijon viloyatida IT markazlar </h3>
-                        <p>Respublikamizda boshqa viloyatlarga qaraganda Andijon viloyatida IT sohasiga qiziquvchi yoshlar soni tobora ortib borayotganligi tufayli viloyatdagi IT markazlari soni 37 nafarga yetdi. </p>
+                        <p>{data.text_uz}</p>
                     </div>
                 </Grid>
 

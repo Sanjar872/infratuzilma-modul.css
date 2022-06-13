@@ -1,9 +1,28 @@
-import React from 'react'
+import  React, { useEffect, useState } from 'react'
 import style from '../styles/infrotuzilma.module.css'
 import { Grid } from '@mui/material'
 import Uzbekistan from "./Uzbekistan";
 
-const infratuzilma = () => {
+import axios from 'axios';
+
+const API = "http://167.99.214.82/get-infrastructure/"
+
+
+
+
+const Infratuzilma = () => {
+   const [data, setData] = useState([])
+
+   useEffect(() => {
+     axios.get(API)
+     .then(res=>{
+      setData(res.data[0])
+   })
+   
+}, [])
+// console.log(data);
+   
+
   return (
     <div className={style.containerr}>
           <div className={style.infra}>
@@ -15,10 +34,7 @@ const infratuzilma = () => {
                   <div className={style.itemContainer}>
                      <h3>Oʻzbekistondagi IT markazlar</h3>
                      <p>
-                        Bugungi kunga qadar O‘zbekistonning ko‘plab hududlarida IT markazlari tashkil etilgan. Bundan
-                        ko'zlangan maqsad qiziquvchan yoshlarni IT ta’limga rag'batlantirish, ularning innovatsion
-                        loyihalarini qo'llab quvvatlash va aholi turmush sharoitini yaxshilash kabi masalalar ilgari
-                        surilgan.
+                       {data.text_uz}
                      </p>
                   </div>
                </Grid>
@@ -33,4 +49,4 @@ const infratuzilma = () => {
   )
 }
 
-export default infratuzilma
+export default Infratuzilma
