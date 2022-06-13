@@ -5,7 +5,6 @@ export const Container = styled.div`
     width:100%;
     height:auto;
     justify-content:center;
-    border:1px solid red;
 
     
 `
@@ -369,7 +368,8 @@ export const Paragraov = styled.div`
          }
 
          @media (max-width:600px) {
-            font-size:14px;  
+            font-size:14px; 
+            padding: 0 5%; 
 
             p {
                 font-size:14px;
