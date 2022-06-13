@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../styles/andijon.module.css'
-import AndMaps from '../assets/icons/AndMap.svg'
+import AndMaps from '../assets/icons/AndMap.png'
 import {Grid} from '@mui/material'
 
 import axios from 'axios'
