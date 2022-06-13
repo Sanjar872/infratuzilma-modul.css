@@ -10,7 +10,7 @@ const Project = () => {
   return (
     <div className={style.Container}>
         {/* <Navbar/> */}
-        {/* <Infratuzilma/> */}
+        <Infratuzilma/>
         <ItiMarkaz/>
         <NewAndijon/>
         <Rejalar/>

@@ -54,6 +54,7 @@
     height: auto;
     border: 1px solid red;
     display: flex;
+    margin-top: 80px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -61,4 +62,17 @@
 
   .Pasqism h1 {
     color: white;
+  }
+
+  @media (max-width:600px) {
+    .Pasqism {
+      display: flex;
+      flex-direction: column;
+      text-align: center ;
+      gap: 10px ;
+    }
+
+    .Pasqism h1 {
+      font-size: 25px;
+    }
   }

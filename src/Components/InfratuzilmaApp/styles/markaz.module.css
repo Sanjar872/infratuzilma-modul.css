@@ -13,8 +13,19 @@
 
 }
 
+.YilrasmMEdi {
+    /* width: 100%; */
+}
+
 .RasmYil {
-    height: 70vh;               
+    /* height: 70vh;                */
+}
+
+@media (max-width:470px) {
+    .RasmYil {
+        transform: scale(0.6);
+        margin-left: -50px;
+    }
 }
 
 @media (max-width:600px) {
@@ -22,41 +33,20 @@
         width: 100%;
         height: auto;
         border: 5px goldenrod solid;
+        padding: 0 2rem;
     }
     .Grid1 {
         border: 1px solid rgb(78, 47, 47);
     }
    
     .RasmYil {
-        /* width: 100%!important; */
+        width: 100%!important;
         /* margin-left: 45px; */
-        /* height: 80vh; */
+        height: 80vh;
         border: 1px solid gold;
     }
    
-
-    .YilrasmMEdi {
-        width: 100% !important;
-    }
-
-    .Yil1 {
-       margin-left: -85px;
-       margin-top: 40px;
-    }
-
-    .Yil2 {
-        margin-left: -50px;
-        margin-top:-30px;
-    }
-
-    .Yil3 {
-        margin-left:-90px;
-        margin-top: -15px;
-    }
-    .Yil4{
-        margin-left: -45px;
-        margin-top: -20px;
-    }
+    
     .Matn {
         width:100% !important;
         text-align: center;
@@ -72,17 +62,10 @@
 }
 
 @media (max-width:598px) {
-    /* .container  {
-        transform: scale(0.7);
-        margin-left: -20px;
-    } */
+   
 }
 
-.Img img{
-    /* width: 485px; */
-    /* height: 600.87px; */
 
-}
 .Matn {
     border: 1px solid red;
     height: 400px;
@@ -112,8 +95,8 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 328px;
-    top:-555px;
+    left: 318px;
+    top:-585px;
 }
 .Yil1 span {
     font-size: 20px;
@@ -136,8 +119,8 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 95px;
-    top:-465px;
+    left: 63px;
+    top:-490px;
 }
 .Yil2 span {
     font-size: 20px;
@@ -160,8 +143,8 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 340px;
-    top:-365px;
+    left: 330px;
+    top:-370px;
 }
 
 
@@ -184,7 +167,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 100px;
+    left:75px;
     top:-265px;
 }
 

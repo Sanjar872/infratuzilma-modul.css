@@ -1,6 +1,7 @@
 @media (max-width:600px) {
     .container {
         width: 100%;
+        height: auto;
     }
     .zmeyka {
         width: 100% !important;
@@ -99,13 +100,16 @@
 .zmeyka {
     width: 100%;
     display: flex;
+    box-sizing: border-box;
     justify-content: space-between;
     color: #fff;
     /* padding: 0 10%; */
-    height: 100vh;
+    /* height: 120vh; */
     font-size: 14px;
     border: 5px solid aqua;
+    
 }
+
 
 .zmeykaTitle {
     display: flex;
@@ -114,17 +118,29 @@
     align-items: flex-end;
     justify-content: center;
     height: 100%;
+    border: 1px solid red;
     padding-top: 100px;
 }
 
 .zmeykaTitle span   {
     width: 40%;
     height: 200px;
+    border: 1px solid gold;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: end;
+    padding-top: 10px;
 
+}
+
+.zmeykaTitle span p {
+    border: 1px solid red;
+    position: relative;
+    left: 20px;
+    /* padding-bottom: 20px; */
+    top: -35px;
+    
 }
 @media (max-width:900px) {
     .zmeykaTitle span {
@@ -168,7 +184,6 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: start;
-    margin-left: -30px;
 }
 
 .zmeyka_title2 span p {
@@ -178,6 +193,7 @@
 
 .ZmeykaImg {
     height: 100%;
+    border: 1px solid green;
 }
 .ZmeykaImg img {
     height: 100%;
@@ -195,10 +211,10 @@
     }
 /* ________________________________ */
     .zmeyka_title2 {
-        width: 100%;
+        /* width: 100%; */
         height: 1000px;
         position: relative;
-        left: -50px;
+        /* left: -50px; */
 
     }
 
@@ -234,12 +250,21 @@
 
 @media (max-width:600px) {
     .zmeyka_title2 span  {
-        margin-left: 20px;
+        border: 1px solid red;
+        position: relative;
+        height: 150px;
+        right: 30px;
+        width: 100%;
+        top: -50px;
+   }
+
+   .zmeyka {
+    transform: scale(0.7);
    }
    .zmeyka_title2 span p {
-    /* display: none; */
+    display: none;
     width: 100%;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
    }
     
     
@@ -265,14 +290,14 @@
    }
 
    .zmeyka_title2 {
-        width: 100%;
+        /* width: 100%; */
         border: 1px solid red;
         position: relative;
-        margin-left: -50px;
+        /* margin-left: -50px; */
    }
 
    .zmeyka_title2 span  {
-        width: 100% !important;
+        /* width: 100% !important; */
         border: 1px solid red;
         height: 300px;
         text-align: end;
