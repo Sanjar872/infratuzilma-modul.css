@@ -3,23 +3,16 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    /* border: 5px solid blue; */
 }
 
 .Grid1 {
-    /* height: 100vh; */
     display: flex;
     align-items: center;
 
 }
 
-.YilrasmMEdi {
-    /* width: 100%; */
-}
 
-.RasmYil {
-    /* height: 70vh;                */
-}
+
 
 @media (max-width:470px) {
     .RasmYil {
@@ -32,19 +25,14 @@
     .container {
         width: 100%;
         height: auto;
-        border: 5px goldenrod solid;
         padding: 0 2rem;
         
     }
-    .Grid1 {
-        border: 1px solid rgb(78, 47, 47);
-    }
+    
    
     .RasmYil {
         width: 100%!important;
-        /* margin-left: 45px; */
         height: 80vh;
-        border: 1px solid gold;
     }
    
     
@@ -68,7 +56,6 @@
 
 
 .Matn {
-    border: 1px solid red;
     height: 400px;
     width: 70%;
 }

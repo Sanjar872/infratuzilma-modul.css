@@ -118,14 +118,12 @@
     align-items: flex-end;
     justify-content: center;
     height: 100%;
-    border: 1px solid red;
     padding-top: 100px;
 }
 
 .zmeykaTitle span   {
     width: 40%;
     height: 200px;
-    border: 1px solid gold;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -135,10 +133,8 @@
 }
 
 .zmeykaTitle span p {
-    border: 1px solid red;
     position: relative;
     left: 20px;
-    /* padding-bottom: 20px; */
     top: -35px;
     
 }

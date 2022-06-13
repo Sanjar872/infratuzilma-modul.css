@@ -23,8 +23,7 @@ export const H1AND = styled.div`
 
 export const BoX = styled.div`
     width:100%;
-    border: 1px solid red;
-    margin-top:50px;
+    margin-top:80px;
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
@@ -102,7 +101,6 @@ export const Brendlar = styled.div`
 export const Kompaniya = styled.img`
     width:35%;
     height: 25%;
-    border:1px solid red;
     @media screen and (max-width:600px) {
             width:18%;
     }
