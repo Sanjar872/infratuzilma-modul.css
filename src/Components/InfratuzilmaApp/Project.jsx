@@ -9,7 +9,7 @@ import Rejalar from './Rejalar/Rejalar'
 const Project = () => {
   return (
     <div className={style.Container}>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Infratuzilma/>
         <ItiMarkaz/>
         <NewAndijon/>

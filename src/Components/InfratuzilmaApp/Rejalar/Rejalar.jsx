@@ -13,14 +13,14 @@ const Rejalar = () => {
       <Container>
          
       <Harakatlar>
-        <Harakatdiv>
+        <Harakatdiv data="zoom-in-down">
           <h1>Harakatlar Strategiyasi</h1>
           <p>Axborot texnologiyalari va kommunikasiyalarini rivojlantirish vazirligining 2017 yilda amalga oshiradigan CHORA-TADBIRLAR DASTURI</p>
         </Harakatdiv>
 
       </Harakatlar>
       <Griddiv>
-        <Cardlar>
+        <Cardlar data-aos="zoom-out-down">
           <div><p>iQtisodiyotni rivojlantirish va liberallashtirish : iQtisodiyot, ijtimoiy soxa, boshQaruv tizimiga axborot-kommunikatsion texnologiyalarni joriy etish. kichik biznes va xususiy tadbirkorlikni rivojlantirish rag’batlantirish</p></div>
           <div><p>iQtisodiyotni rivojlantirish va liberallashtirish : iQtisodiyot, ijtimoiy soxa, boshQaruv tizimiga axborot-kommunikatsion texnologiyalarni joriy etish. kichik biznes va xususiy tadbirkorlikni rivojlantirish rag’batlantirish</p></div>
           <div><p>xavsizlik, diniy bag’rikenglik va millitlar aro totuvlikni taminlash</p></div>
@@ -30,7 +30,7 @@ const Rejalar = () => {
       </Griddiv>
       <LiniDiv>
 
-        <div>
+        <div >
           <IMGG src={BorderLIni} alt="" />
         </div>
         <Border>
@@ -93,7 +93,9 @@ const Rejalar = () => {
 
         </Border>
       </LiniDiv>
-      <ItKompaniya>
+      <ItKompaniya data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
 
         <h1>IT Kompaniyalar</h1>
         <br />

@@ -26,7 +26,7 @@ const ItiMarkaz = () => {
             <Grid className={style.ItimGrid} container spacing={5}>
 
                 <Grid className={style.Grid1} item xs={12} sm={12} md={6} xl={6}>
-                    <div className={style.RasmYil}>
+                    <div data-aos="flip-up" className={style.RasmYil}>
                         <div className={style.Img}>
 
                         <img className={style.YilrasmMEdi} src={`http://167.99.214.82${data.image}`} alt="" />
@@ -51,7 +51,7 @@ const ItiMarkaz = () => {
                 </Grid>
                 <Grid className={style.Grid1} item xs={12} sm={12} md={6} xl={6}>
 
-                    <div className={style.Matn}>
+                    <div data-aos="flip-up" className={style.Matn}>
                         <h3 >Andijon viloyatida IT markazlar </h3>
                         <p>{data.text_uz}</p>
                     </div>

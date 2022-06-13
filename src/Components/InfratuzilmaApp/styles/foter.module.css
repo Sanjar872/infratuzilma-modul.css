@@ -59,6 +59,10 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .Parent:hover {
+    transform: scaleX(0.5);
+  }
 .Pasqism img {
   width: 100%;
   height: 50px;

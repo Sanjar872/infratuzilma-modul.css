@@ -4,7 +4,8 @@ import { Grid } from '@mui/material'
 import Uzbekistan from "./Uzbekistan";
 
 import axios from 'axios';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const API = "http://167.99.214.82/get-infrastructure/"
 
 
@@ -25,13 +26,13 @@ const Infratuzilma = () => {
 
   return (
     <div className={style.containerr}>
-          <div className={style.infra}>
+          <div data-aos="fade-up" className={style.infra}>
             <p className={style.Inf}>INFRATUZILMA</p>
          </div>
          <div className={style.main}>
             <Grid container spacing={5}>
                <Grid item xs={12} sm={12} md={6} xl={6}>
-                  <div className={style.itemContainer}>
+                  <div data-aos="fade-up" className={style.itemContainer}>
                      <h3>Oʻzbekistondagi IT markazlar</h3>
                      <p>
                        {data.text_uz}
@@ -39,7 +40,7 @@ const Infratuzilma = () => {
                   </div>
                </Grid>
                <Grid item xs={12} sm={12} md={6} xl={6}>
-                  <div className={style.itemContainer}>
+                  <div data-aos="fade-up" className={style.itemContainer}>
                      <Uzbekistan />
                   </div>
                </Grid>

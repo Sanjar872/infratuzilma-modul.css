@@ -59,11 +59,11 @@ const Foter = () => {
     return (
         <Container>
             <Brendlar>
-                <div className={styles.div1}> <h1>Andijona Pochta Xizmatlari</h1></div>
+                <div className={styles.div1}> <h1 data-aos="zoom-in">Andijona Pochta Xizmatlari</h1></div>
                 <div class={styles.parent}>
                     {data?.map((el, index)=> {
                       return(
-                        <div className={styles.div2}><BredRasmlar src={`http://167.99.214.82${el.logo}`} alt="" /></div>
+                        <div data-aos="zoom-in"  className={styles.div2}><BredRasmlar src={`http://167.99.214.82${el.logo}`} alt="" /></div>
                       )
 
                     })}
