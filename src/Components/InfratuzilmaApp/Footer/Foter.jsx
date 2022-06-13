@@ -23,10 +23,13 @@ const API = "http://167.99.214.82/get-postalservices/"
 
 const API2 = 'http://167.99.214.82/get-mobileoperators/'
 
+const API3 = 'http://167.99.214.82/get-internetproviders/'
+
 const Foter = () => {
 
     const [data, setData] = useState([])
     const [data2, setData2] = useState([])
+    const [data3, setData3] = useState([])
 
 
     useEffect(() => {
@@ -40,7 +43,14 @@ const Foter = () => {
             setData2(res.data)
         })
 
+        
+        axios.get(API3)
+        .then(res=>{
+            setData3(res.data)
+        })
+
     }, [])
+    console.log(data3);
 
     console.log(data2);
 
@@ -91,10 +101,14 @@ const Foter = () => {
                 <h1>Andijonda Internet
                     Provayderlar</h1>
 
+                    {data3?.map((el,index)=>{
+                        return(
+                            <div><img src={`http://167.99.214.82${el.logo}`} alt="" /></div>
 
-                    <div><img src={Evo} alt="" /></div>
-                    <div><img src={Tps} alt="" /></div>
-                    <div><img src={Uztelecom} alt="" /></div>
+                        )
+                    })}
+                    {/* <div><img src={Tps} alt="" /></div>
+                    <div><img src={Uztelecom} alt="" /></div> */}
 
             </div>
         </Container>
