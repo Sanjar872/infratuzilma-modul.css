@@ -5,21 +5,22 @@ export const Map = styled.div`
   width: auto;
 
   svg {
-    stroke: #fff;
+    stroke: #58567C;
     
     path {
-      fill: #7693AE;
+      fill: #383565;
       cursor: pointer;
       outline: none;
 
       // When a layer is hovered
       &:hover {
-        fill: #4F6478;
+        /* fill: #4F6478; */
       }
 
       // When a layer is focused.
       &:focus {
-        fill: rgba(168, 43, 43, 0.6);
+        fill: #13113E;
+        /* fill: rgba(168, 43, 43, 0.6); */
       }
 
       // When a layer is 'checked' (via checkedLayers prop).
