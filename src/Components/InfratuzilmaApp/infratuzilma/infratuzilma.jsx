@@ -40,7 +40,7 @@ const Infratuzilma = () => {
                   </div>
                </Grid>
                <Grid item xs={12} sm={12} md={6} xl={6}>
-                  <div data-aos="fade-up" className={style.itemContainer}>
+                  <div className={style.itemContainer}>
                      <Uzbekistan />
                   </div>
                </Grid>

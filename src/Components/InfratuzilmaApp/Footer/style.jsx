@@ -106,6 +106,9 @@ export const Kompaniya = styled.img`
     }
     &:hover{
         cursor: pointer;
+        transform:scale(1.2);
+        transition:1s;
+        
     }
     /* padding: 0 30px; */
 

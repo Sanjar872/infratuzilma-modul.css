@@ -78,7 +78,7 @@ const Foter = () => {
         
             </Brendlar>
 
-            <BoX>
+            <BoX data-aos="fade-up">
                 <div>
 
 
@@ -97,7 +97,7 @@ const Foter = () => {
                 <PANd>Andijonda Mobil Operatorlari, uyali telefon kompaniyalar</PANd>
 
             </BoX>
-            <div className={styles.Pasqism}>
+            <div data-aos="fade-up"  className={styles.Pasqism}>
                 <h1>Andijonda Internet
                     Provayderlar</h1>
 

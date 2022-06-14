@@ -59,7 +59,12 @@
     justify-content: space-between;
     align-items: center;
   }
-
+  .Pasqism:hover{
+      cursor: pointer;
+      transform:scale(1.2);
+      transition:1s;
+  }
+  
   .Parent:hover {
     transform: scaleX(0.5);
   }
